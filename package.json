@@ -1,0 +1,26 @@
+{
+  "name": "epocli",
+  "version": "0.0.1",
+  "description": "Simple cli for converting timestamps to dates and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "bin": {
+    "epocli": "./index.js"
+  },
+  "keywords": [
+    "epoch",
+    "timestamp",
+    "convert",
+    "cli",
+    "command",
+    "line"
+  ],
+  "author": "auronmatrix",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "moment": "^2.22.2"
+  }
+}
